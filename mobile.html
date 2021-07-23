@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body class="iphonee">
+<fieldset>
+    <legend>NOKIA</legend>
+    <table>
+        <tr>
+            <td>
+                <button onclick="shutDownnokia()">Off</button>
+            </td>
+            <td>
+                <button onclick="turnOnnokia()">On</button>
+            </td>
+            <td>
+                <button onclick="clickChargenokia()">Charge</button>
+            </td>
+            <td width="150"></td>
+            <td id="pinnokia"></td>
+        </tr>
+    </table>
+    <hr>
+    <textarea class="box" name="" id="phone1" cols="30" rows="5" placeholder="Soạn tin nhắn"></textarea>
+    <button onclick="nokiaMessenger()">Send</button>
+    <hr>
+    <legend class="box">Inbox</legend>
+    <hr>
+    <p id="inbox1"></p>
+    <hr>
+    <legend class="box">Outbox</legend>
+    <hr>
+    <p id="outbox1"></p>
+</fieldset>
+<fieldset>
+    <legend>IPHONE</legend>
+    <table>
+        <tr>
+            <td>
+                <button onclick="shutDowniphone()">Off</button>
+            </td>
+            <td>
+                <button onclick="turnOniphone()">On</button>
+            </td>
+            <td>
+                <button onclick="clickChargeiphone()">Charge</button>
+            </td>
+            <td width="150"></td>
+            <td id="piniphone"></td>
+        </tr>
+    </table>
+    <hr>
+    <textarea class="box" name="" id="phone2" cols="30" rows="5" placeholder="Soạn tin nhắn"></textarea>
+    <button onclick="iphoneMessenger()">Send</button>
+    <hr>
+    <legend class="box">Inbox</legend>
+    <hr>
+    <p id="inbox2"></p>
+    <hr>
+    <legend class="box">Outbox</legend>
+    <hr>
+    <p id="outbox2"></p>
+</fieldset>
+<script src="mobile.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

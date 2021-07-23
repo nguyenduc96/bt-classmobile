@@ -1,0 +1,36 @@
+fieldset {
+    word-break: break-all;
+    width: 350px;
+    height: 500px;
+}
+
+.box {
+    font-size: 15px;
+    color: blue;
+}
+
+legend {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    color: red;
+}
+
+#pinnokia {
+    border: 1px solid red;
+    text-align: center;
+    color: blue;
+    width: 40px;
+}
+
+#piniphone {
+    border: 1px solid red;
+    text-align: center;
+    color: blue;
+    width: 40px;
+}
+
+.iphonee {
+    display: flex;
+}
